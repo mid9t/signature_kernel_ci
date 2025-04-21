@@ -1,6 +1,6 @@
 # Signature Kernel for Conditional Independence Testing
 
-This repository implements a signature kernel-based approach for conditional independence testing in time series data. The project recreates the experiments described in the research paper ["SIGNATURE KERNEL CONDITIONAL INDEPENDENCE TESTS IN CAUSAL DISCOVERY FOR STOCHASTIC PROCESSES"]([https://openreview.net/pdf?id=Nx4PMtJ1ER](https://arxiv.org/abs/2402.18477)) (ICLR 2025).
+This repository implements a signature kernel-based approach for conditional independence testing in time series data. The project recreates the experiments described in the research paper ["SIGNATURE KERNEL CONDITIONAL INDEPENDENCE TESTS IN CAUSAL DISCOVERY FOR STOCHASTIC PROCESSES"]([https://openreview.net/pdf?id=Nx4PMtJ1ER](https://arxiv.org/abs/2402.18477) (ICLR 2025).
 
 ## Installation Guide
 
@@ -120,7 +120,7 @@ This implementation is based on the paper:
 **Title**: SIGNATURE KERNEL CONDITIONAL INDEPENDENCE TESTS IN CAUSAL DISCOVERY FOR STOCHASTIC PROCESSES  
 **Authors**: Georg Manten, Cecilia Casolo, Emilio Ferrucci, Søren Wengel Mogensen, Cristopher Salvi, Niki Kilbertus
 **Conference**: ICLR 2025  
-**Link**: [https://openreview.net/pdf?id=Nx4PMtJ1ER]([https://openreview.net/pdf?id=Nx4PMtJ1ER](https://arxiv.org/abs/2402.18477))
+**Link**: [https://openreview.net/pdf?id=Nx4PMtJ1ER]([https://openreview.net/pdf?id=Nx4PMtJ1ER](https://arxiv.org/abs/2402.18477)
 
 The paper introduces a novel approach for conditional independence testing in time series data using signature kernels, which is particularly useful for causal discovery in stochastic processes.
 
