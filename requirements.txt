@@ -1,0 +1,8 @@
+# Install numpy first to avoid build errors with iisignature
+numpy
+matplotlib
+networkx
+scipy
+
+# iisignature must be installed separately after numpy is present
+# pip install iisignature
