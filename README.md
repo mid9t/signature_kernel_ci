@@ -1,6 +1,6 @@
 # Signature Kernel for Conditional Independence Testing
 
-This repository implements a signature kernel-based approach for conditional independence testing in time series data.
+This repository implements a signature kernel-based approach for conditional independence testing in time series data. The project recreates the experiments described in the research paper ["SIGNATURE KERNEL CONDITIONAL INDEPENDENCE TESTS IN CAUSAL DISCOVERY FOR STOCHASTIC PROCESSES"](https://openreview.net/pdf?id=Nx4PMtJ1ER) (ICLR 2023).
 
 ## Installation Guide
 
@@ -95,7 +95,14 @@ If direct installation still fails, use the manual build method (Method 2) withi
 
 ## Usage
 
-[Usage instructions will go here]
+To run the causal discovery experiment:
+
+```bash
+# Make sure to set PYTHONPATH to include the project root
+PYTHONPATH=. python experiments/causal_discovery.py
+```
+
+This will run the signature kernel conditional independence tests on synthetic data and generate causal graphs based on the test results, following the methodology described in the paper.
 
 ## Project Structure
 
@@ -103,6 +110,19 @@ If direct installation still fails, use the manual build method (Method 2) withi
 - `experiments/`: Example experiments using the signature kernel
 - `tests/`: Test cases for the implementation
 - `utils/`: Utility functions for evaluation and visualization
+- `data/`: Data generation and loading utilities
+- `results/`: Generated output from experiments
+
+## Research Paper
+
+This implementation is based on the paper:
+
+**Title**: SIGNATURE KERNEL CONDITIONAL INDEPENDENCE TESTS IN CAUSAL DISCOVERY FOR STOCHASTIC PROCESSES  
+**Authors**: Zhen Zeng, Imre Pólik, Hongsheng Dai, Franz J. Király  
+**Conference**: ICLR 2023  
+**Link**: [https://openreview.net/pdf?id=Nx4PMtJ1ER](https://openreview.net/pdf?id=Nx4PMtJ1ER)
+
+The paper introduces a novel approach for conditional independence testing in time series data using signature kernels, which is particularly useful for causal discovery in stochastic processes.
 
 ## License
 
